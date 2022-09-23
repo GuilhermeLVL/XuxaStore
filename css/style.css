@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+    
+}
+body{
+   
+}
+/*Cabecalho*/
+header{
+    background-color: #280542;
+    padding: 20px;
+    border-bottom:#23013eba solid 3px ;
+    
+}
+
+h1{
+    font-family: 'Nabla', cursive;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0) ;
+    text-align: center;
+}
+
+.container{
+    background-color: #171717;
+    color: #fff;
+    padding: 50px;
+}
+.produtos-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    width: 31%;
+   display: inline-block;
+   margin: 1% 1%;
+   padding-inline-start: 15px;
+}
+.product-image{
+    height: 300px;
+    width: 300px;
+    margin-bottom:10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image:url('../imgs/imagem_2022-09-22_195926631-removebg-preview.png')
+}
+#img-2{
+    background-image:url('../imgs/placa-mae-gigabyte-b550m-aorus-elite-amd-am4-micro-atx-ddr4_1594908595_gg-removebg-preview.png')
+}
+#img-3{
+    background-image:url('../imgs/imagem_2022-09-22_195625113-removebg-preview.png')
+}
+#img-4{
+    background-image:url('../imgs/imagem_2022-09-22_195415944-removebg-preview.png')
+}
+#img-5{
+    background-image:url('../imgs/imagem_2022-09-22_195748586-removebg-preview.png')
+}
+#img-6{
+    background-image:url('../imgs/download-removebg-preview.png')
+    
+}
+
+h3{
+    margin-bottom: 10px;
+    color:#fcd021 ;
+    border-left:5px solid #280542;
+    padding: 7px;
+    font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #280542;
+    color: #fcd021;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+#btn:hover{
+    background-color: #fcd021;
+    color: #280542;
+}
+
+footer{
+    background-color: #23013ee3;
+    color: #fff;
+    border-top: 3px solid #280542;
+    text-align: center;
+    padding: 80px;
+}
